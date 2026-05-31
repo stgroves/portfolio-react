@@ -1,0 +1,45 @@
+{
+  "elementRegistry": {
+    "065ac03a-a1ab-4b63-8bc0-42fe9d65e5b3": {
+      "type": "text-input",
+      "value": "",
+      "modifiers": [
+        {"type": "placeholder", "value": "First Name"},
+        {"type": "disabled", "enabled": false},
+        {"type": "tooltip", "value": "This is a test!"}
+      ]
+    },
+    "5dea67fd-baee-4f34-b93d-3f765988d757": {
+      "type": "label",
+      "style": {"color": "red"},
+      "className": "Test",
+      "children": [
+        {
+          "type": "text-node",
+          "value": "First Name"
+        },
+        {
+          "type": "ref",
+          "ref-type": "element",
+          "ref": "065ac03a-a1ab-4b63-8bc0-42fe9d65e5b3"
+        }
+      ]
+    }
+  },
+  "layoutTree": {
+    "type": "stack",
+    "orientation": "vertical",
+    "children": [
+      {
+        "type": "ref",
+        "ref-type": "element",
+        "ref": "5dea67fd-baee-4f34-b93d-3f765988d757"
+      },
+      {
+        "type": "ref",
+        "ref-type": "element",
+        "ref": "065ac03a-a1ab-4b63-8bc0-42fe9d65e5b3"
+      }
+    ]
+  }
+}

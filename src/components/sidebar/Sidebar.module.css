@@ -1,0 +1,20 @@
+.Sidebar {
+  background-color: #222228;
+  float: left;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.Slot {
+  background-color: rgba(0,0,0,0.5);
+  padding-top: 5px;
+  border-radius: 45px;
+}
+
+.Slot img {
+  display: block;
+}

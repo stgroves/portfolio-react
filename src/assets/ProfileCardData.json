@@ -1,0 +1,39 @@
+{
+  "name": "Stephanie Groves",
+  "pronouns": "She/Her",
+  "address": "Ferryhill, Co Durham, UK",
+  "profession": "Programmer",
+  "skills": {
+    "header": "Skills",
+    "skills": [
+      "C#",
+      "Javascript",
+      "HTML",
+      "CSS",
+      "Unity",
+      "Power Suite"
+    ]
+  },
+  "avatar": {
+    "avatarURL": "/profile.png",
+    "badge": "\uD83C\uDFF3\uFE0F\u200D⚧\uFE0F",
+    "fallback": "SG"
+  },
+  "socialLinks": [
+    {
+      "name": "Email",
+      "faClasses": "fa-solid fa-envelope",
+      "url": "mailto:s.t.groves@hotmail.co.uk"
+    },
+    {
+      "name": "GitHub",
+      "faClasses": "fa-brands fa-github",
+      "url": "https://github.com/stgroves/"
+    },
+    {
+      "name": "LinkedIn",
+      "faClasses": "fa-brands fa-linkedin",
+      "url": "https://www.linkedin.com/in/stgrovesprogrammer/"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+.ColorSlider {
+  width: fit-content;
+  height: fit-content;
+}
+
+.Thumb {
+  background-color: white;
+  /*border: 1px solid grey;*/
+  box-sizing: border-box;
+  border-radius: 50%;
+}
